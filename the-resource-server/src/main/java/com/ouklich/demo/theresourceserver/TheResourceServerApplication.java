@@ -43,7 +43,7 @@ class GreetingsController {
 		this.service = service;
 	}
 
-	@GetMapping("/")
+	@GetMapping("/hello")
 	Map<String, String> hello() {
 		return this.service.greet();
 	}
